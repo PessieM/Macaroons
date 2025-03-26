@@ -1,0 +1,68 @@
+/* styles.css
+ * Styles for HW4
+ * Pessie Mittelman
+ * 3/26/2025 */
+
+ :root {
+    --background-color: #f0f0f0;
+    --imp-text-color: #7b6464;
+    --text-color: #b29b9b;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    margin: .5em 1em;
+    padding: 2em;
+    font-size: 1.1em;
+}
+
+h1, footer { 
+    text-align: center;
+}
+
+h1, h2 {
+    color: var(--imp-text-color);
+}
+
+p {
+    text-align: justify;
+    color: var(--text-color);
+    margin: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--imp-text-color);
+}
+
+a:hover {
+    color: black;
+}
+
+li {
+    color: var(--text-color);
+    margin: 0.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe {
+    padding: 0 2em;
+}
+
+img {
+    margin: 2em;
+    box-shadow: 5px 5px 5px var(--text-color);
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+}
